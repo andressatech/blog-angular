@@ -1,0 +1,31 @@
+.small-card-container {
+  width: 600px;
+  display: flex;
+  flex-direction: row;
+}
+
+.small-card-image > img {
+  max-width: 200px;
+  height: 100%;
+}
+
+.small-card-date{
+  color:rgb(197, 149, 182)
+}
+
+.small-card-title{
+  margin-left: 10px;
+  margin-top: 5px;
+}
+
+hr{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 500px;
+  color: rgba(126, 81, 111, 0)
+}
+
+.small-card-image > img:hover {
+  max-width: 205px;
+  height: 100%;
+}

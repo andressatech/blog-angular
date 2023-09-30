@@ -1,0 +1,34 @@
+.big-card-container {
+  width: 400px;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.big-card-date > span{
+  margin-top: 15px;
+  margin-bottom: 5px;
+  color:rgb(197, 149, 182)
+}
+
+.big-card-title{
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.big-card-description > p{
+  margin-top: 10px;
+  color:rgb(197, 149, 182)
+}
+
+.big-card-image > img{
+  width: 100%;
+  min-width: 400px;
+}
+
+.big-card-container:hover{
+  width: 402px;
+  height: 502px;
+}
+

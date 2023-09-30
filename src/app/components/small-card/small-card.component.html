@@ -1,1 +1,12 @@
-<p>small-card works!</p>
+<a [routerLink]="['content', Id]">
+  <div class="small-card-container">
+    <div class="small-card-image">
+      <img src="{{photoCover}}">
+    </div>
+    <div class="small-card-title">
+      <h1>{{cardTitle}}</h1>
+    </div>
+  </div>
+  <hr>
+</a>
+

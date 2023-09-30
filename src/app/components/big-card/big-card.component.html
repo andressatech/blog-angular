@@ -1,1 +1,17 @@
-<p>big-card works!</p>
+<div class="big-card-container">
+  <a [routerLink]="['content', Id]">
+  <div class="big-card-image">
+    <img src="{{photoCover}}"
+    >
+  </div>
+  <div class="big-card-date">
+    <span>{{cardDate}}</span>
+  </div>
+  <div class="big-card-title">
+    <h1>{{cardTitle}}</h1>
+  </div>
+  <div class="big-card-description">
+    <p>{{cardDescription}}</p>
+  </div>
+  </a>
+</div>
